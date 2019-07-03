@@ -14,7 +14,7 @@
 
 			foreach ($parameters as $key => $value) {
 				
-				$thos->setParam($key, $value);
+				$this->setParam($statement, $key, $value);
 
 			}
 
